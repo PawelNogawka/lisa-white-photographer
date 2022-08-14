@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photographer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/css/style.min.css" />
+  </head>
+  <body>
+    <header id="header" class="header">
+      <nav class="nav nav--mobile">
+        <button class="nav__hamburger">
+          <div class="nav__line nav__line--1"></div>
+          <div class="nav__line nav__line--2"></div>
+          <div class="nav__line nav__line--3"></div>
+        </button>
+        <div class="nav__list">
+          <a href="#header" class="nav__link nav__link--mobile">home</a>
+          <a href="#about" class="nav__link nav__link--mobile">about me</a>
+          <a href="#services" class="nav__link nav__link--mobile">services</a>
+          <a href="#gallery" class="nav__link nav__link--mobile">gallery</a>
+          <a href="#contact" class="nav__link nav__link--mobile">contact</a>
+        </div>
+      </nav>
+      <nav class="nav nav--desktop">
+        <a href="#header" class="nav__link nav__link--desktop">home</a>
+        <a href="#about" class="nav__link nav__link--desktop">about me</a>
+        <a href="#services" class="nav__link nav__link--desktop">services</a>
+        <a href="#gallery" class="nav__link nav__link--desktop">gallery</a>
+        <a href="#contact" class="nav__link nav__link--desktop">contact</a>
+      </nav>
+      <div class="header__slider">
+        <div class="header__slide">
+          <div class="header__banner">
+            <h1 class="header__heading">Lorem ipsum dolor sit amet.</h1>
+            <p class="header__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Inventore, consequatur. Libero nesciunt at minus?
+            </p>
+            <a href="#about" class="header__btn">explore</a>
+          </div>
+        </div>
+        <div class="header__slide">
+          <div class="header__banner">
+            <h1 class="header__heading">Lorem ipsum dolor sit amet.</h1>
+            <p class="header__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Inventore, consequatur. Libero nesciunt at minus?
+            </p>
+            <a href="#about" class="header__btn">explore</a>
+          </div>
+        </div>
+        <div class="header__slide">
+          <div class="header__banner">
+            <h1 class="header__heading">Lorem ipsum dolor sit amet.</h1>
+            <p class="header__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Inventore, consequatur. Libero nesciunt at minus?
+            </p>
+            <a href="#about" class="header__btn">Explore</a>
+          </div>
+        </div>
+        <div class="header__slide">
+          <div class="header__banner">
+            <h1 class="header__heading">Lorem ipsum dolor sit amet.</h1>
+            <p class="header__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Inventore, consequatur. Libero nesciunt at minus?
+            </p>
+            <a href="#about" class="header__btn">explore</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="wrapper">
+        <section id="about" class="about section-padding">
+          <div class="about__row-1">
+            <div class="about__img-box">
+              <img
+                src="./dist/images/lisa-white.jpg"
+                alt="Lisa White - Photographer"
+                class="about__img"
+              />
+              <div class="about__img-caption">
+                <p class="about__caption-txt">Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="about__btn">read more</a>
+              </div>
+            </div>
+            <div class="about__rectangle">
+              <h2 class="section-heading">about me</h2>
+              <p class="about__text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio
+                sed atque quasi expedita ipsam perferendis in excepturi culpa,
+                accusamus aliquam Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Quae, ea? Qui in voluptatum, modi facere vel
+                sed fuga fugiat maxime aperiam eum ex explicabo culpa
+                necessitatibus est vero. Ratione, nulla.
+              </p>
+            </div>
+          </div>
+          <div class="about__row-2">
+            <div class="about__counter">
+              <div class="about__box">
+                <h3 class="about__title">photos</h3>
+                <p class="about__ammount">3000+</p>
+              </div>
+              <div class="about__box">
+                <h3 class="about__title">events</h3>
+                <p class="about__ammount">3000+</p>
+              </div>
+              <div class="about__box">
+                <h3 class="about__title">happy clients</h3>
+                <p class="about__ammount">3000+</p>
+              </div>
+              <div class="about__box">
+                <h3 class="about__title">photos</h3>
+                <p class="about__ammount">3000+</p>
+              </div>
+            </div>
+            <p class="about__autograph">lisa white</p>
+          </div>
+        </section>
+        <section id="services" class="services section-padding">
+          <h2 class="section-heading mb">services</h2>
+          <div class="services__wrapper">
+            <div class="services__img-box">
+              <img
+                src="./dist/images/camera.png"
+                alt="camera"
+                class="services__img"
+              />
+            </div>
+            <div class="services__box services__box--1">
+              <div class="services__service">
+                <i class="fa-solid fa-children"></i>
+                <h3 class="services__name">kids photography</h3>
+              </div>
+              <div class="services__service">
+                <i class="fa-solid fa-heart"></i>
+                <h3 class="services__name">weddings</h3>
+              </div>
+            </div>
+            <div class="services__box services__box--2">
+              <div class="services__service">
+                <i class="fa-solid fa-cake-candles"></i>
+                <h3 class="services__name">events</h3>
+              </div>
+              <div class="services__service">
+                <i class="fa-solid fa-tree"></i>
+                <h3 class="services__name">outdoor sessions</h3>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="gallery" class="gallery section-padding">
+          <div class="gallery__header">
+            <h2 class="section-heading section-heading--g">My Gallery</h2>
+            <div class="gallery__rectangle">
+              <p class="gallery__info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+                est exercitationem quibusdam ullam voluptate at, enim dolore
+                temporibus aliquam libero quas iure ut! Nostrum provident
+                reprehenderit vero maiores pariatur repellat? Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Natus eos, voluptatibus
+                voluptas voluptatem quisquam doloribus nisi esse? Beatae, natus
+                debitis!
+              </p>
+            </div>
+            <div class="gallery__grid-gallery">
+              <img
+                src="./dist/images/img-1.jpg"
+                alt="village"
+                class="gallery__img gallery__img--1"
+              />
+              <img
+                src="./dist/images/img-2.jpg"
+                alt="sea fish"
+                class="gallery__img gallery__img--2"
+              />
+              <img
+                src="./dist/images/img-3.jpg"
+                alt="river"
+                class="gallery__img gallery__img--3"
+              />
+              <img
+                src="./dist/images/img-4.jpg"
+                alt="forest road"
+                class="gallery__img gallery__img--4"
+              />
+              <img
+                src="./dist/images/img-5.jpg"
+                alt="mountains"
+                class="gallery__img gallery__img--5"
+              />
+              <img
+                src="./dist/images/img-6.jpg"
+                alt="house"
+                class="gallery__img gallery__img--6"
+              />
+              <img
+                src="./dist/images/img-7.jpg"
+                alt="birds"
+                class="gallery__img gallery__img--7"
+              />
+              <img
+                src="./dist/images/img-8.jpg"
+                alt="dessert"
+                class="gallery__img gallery__img--8"
+              />
+              <img
+                src="./dist/images/img-9.jpg"
+                alt="lake"
+                class="gallery__img gallery__img--9"
+              />
+              <img
+                src="./dist/images/img-10.jpg"
+                alt="garden"
+                class="gallery__img gallery__img--10"
+              />
+              <img
+                src="./dist/images/img-11.jpg"
+                alt="mountains"
+                class="gallery__img gallery__img--11"
+              />
+              <img
+                src="./dist/images/img-12.jpg"
+                alt="animals"
+                class="gallery__img gallery__img--12"
+              />
+            </div>
+          </div>
+        </section>
+        <section id="contact" class="contact section-padding">
+          <h2 class="section-heading mb">Contact</h2>
+          <div class="contact__wrapper" onclick="void(0)">
+            <div class="contact__card-box">
+              <div class="contact__card">
+                <div class="contact__card-front">
+                  <div class="contact__card-left">
+                    <img
+                      src="./dist/images/logo.jpg"
+                      alt=""
+                      class="contact__img"
+                    />
+                  </div>
+                  <div class="contact__card-right">
+                    <div class="contact__person">
+                      <i class="fa-solid fa-camera"></i>
+                      <div class="contact__person-info">
+                        <h3 class="contact__person-name">lisa white</h3>
+                        <p class="contact__person-proffesion">photographer</p>
+                      </div>
+                    </div>
+                    <div class="contact__method contact__method--1">
+                      <i class="fa-solid fa-phone"></i>
+                      <p class="contact__direction">+45 456 346 234</p>
+                    </div>
+                    <div class="contact__method contact__method--2">
+                      <i class="fa-solid fa-envelope"></i>
+                      <p class="contact__direction contact__direction--break">
+                        lisawhite@contact.com
+                      </p>
+                    </div>
+                    <div class="contact__method contact__method--3">
+                      <i class="fa-solid fa-location-arrow"></i>
+                      <p class="contact__direction">New York Main Street 123</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="contact__card-back">
+                  <img
+                    src="./dist/images/lisa-white.jpg"
+                    alt=""
+                    class="contact__card-back-img"
+                  />
+                </div>
+              </div>
+            </div>
+            <form class="contact__form">
+              <input
+                type="email"
+                class="contact__input"
+                placeholder="Enter Your Email"
+              />
+              <input
+                type="text"
+                class="contact__input"
+                placeholder="Enter Your Name"
+              />
+              <textarea
+                class="contact__textarea"
+                placeholder="Enter Your Message"
+              ></textarea>
+              <button class="contact__button">send message</button>
+            </form>
+          </div>
+          <div class="contact__social-media-box" onclick="void(0)">
+            <div class="contact__follow-box">
+              <p class="contact__follow">follow me</p>
+              <div class="contact__line"></div>
+            </div>
+
+            <div class="contact__menu">
+              <a href="" class="contact__link">facebook</a>
+              <a href="" class="contact__link">youTube</a>
+              <a href="" class="contact__link">twitter</a>
+              <a href="" class="contact__link">instagram</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <nav class="footer__nav">
+        <a href="#about" class="footer__link">about me</a>
+        <a href="#services" class="footer__link">services</a>
+        <a href="#gallery" class="footer__link">gallery</a>
+        <a href="#contact" class="footer__link">contact</a>
+      </nav>
+    </footer>
+    <script src="./dist/js/main.min.js"></script>
+  </body>
+</html>
