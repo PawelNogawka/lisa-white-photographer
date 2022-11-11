@@ -1,4 +1,6 @@
 # lisa-white-photographer
+Github Pages link: https://pawelnogawka.github.io/lisa-white-photographer/
+
 While creating this website, I learned how to do:
 
 - The slider in the home section, this slider uses the transform and flex properties, it is animated.
